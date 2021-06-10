@@ -28,7 +28,7 @@ $(function() {
 				$('#modalSuccess').show();
 				$('#modalError').hide();
 				var hashLink = `
-								<a href="https://explorer.apothem.network/tx/`+data.success.txHash+`"> Check Txhash :- `+data.success.txHash+`</a>
+								<a href="http://devnetscan.apothem.network/tx/`+data.success.txHash+`"> Check Txhash :- `+data.success.txHash+`</a>
 								`;
 				$('#hashLink').html(hashLink)
 			}
